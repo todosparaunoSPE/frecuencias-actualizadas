@@ -174,3 +174,6 @@ if st.button('Generar Archivo Excel'):
     st.success('Archivo Excel generado exitosamente. Descargue el archivo desde el siguiente enlace:')
     with open('transformaciones.xlsx', 'rb') as f:
         st.download_button(label='Descargar transformaciones.xlsx', data=f, file_name='transformaciones.xlsx')
+
+
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
